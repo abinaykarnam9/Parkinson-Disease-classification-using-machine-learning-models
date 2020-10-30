@@ -15,6 +15,7 @@ class Bee:
         self.recuiter = True
         self.distance = 0.0
 
+        
     def choose_rand_move(self, move, nods):
         # choosen node must be unique
         for i in range(move):
