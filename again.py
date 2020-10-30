@@ -16,6 +16,7 @@ def sel1():
     fp.write("\n"+str(id_num)+" "+str(a)+" "+str(b))
     fp.close()
 
+    
 def sel2():
     kp=open("C:/Users/Shiva Chandra/Documents/Project/datasets/new-data.txt","r")
     sentences=[]
